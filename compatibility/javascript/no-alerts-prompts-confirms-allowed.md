@@ -1,5 +1,7 @@
 Using alerts(), prompts(), confirms() breaks the workflow of users. Based on historical software practices most users who come across these modals will simply dismiss them without being concerned about the consequences. These modals can also become annoying if used incorrectly.
 
+This rule will also be triggered when a page opens a prompt by default without the user doing anything.
+
 # How do I fix this ?
 
 Design your website to be clear and concise. Use simple mechanisms to notify users. Rethink the process flow of your website.
